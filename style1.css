@@ -1,0 +1,61 @@
+body
+{
+    background: url(./images/front-view-male-student-wearing-black-backpack-holding-copybooks-files-blue-wall.jpg);
+    color: black;
+    background-repeat: no-repeat;
+    background-size: 84%;
+    background-position: center;
+    
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+form{
+    display: grid; 
+    width:700px;
+    place-items: center;
+    margin-top: 200px;
+    box-shadow:0 0 20px rgb(0, 0, 0,0.4);
+    padding: 2rem;
+border-radius: 4px;
+}
+.name{
+    display: flex;
+    align-items:center;
+}
+label{
+    margin: 2rem 1rem  ;
+    color: black;
+    font-weight: bold;
+}
+input{
+    width:500px;
+    border: none;
+    height:40px;
+    outline: none;
+    background-color:rgb(201, 234, 223);
+    text-align: center ;
+
+}
+.btn
+{
+    width:100px;
+    height: 30px;
+    margin-left: 4rem;
+    background-color: rgb(24, 103, 24);
+    color: white;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(10, 61, 10);
+}
+h1{
+    margin-left: 4rem;
+    color:black;
+}
+input:focus{
+    border: 1px solid rgb(24, 103, 24);
+
+}
